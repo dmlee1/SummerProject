@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pomegranate
+Version: 0.14.5
+Summary: Pomegranate is a graphical models library for Python, implemented in Cython for speed.
+Home-page: http://pypi.python.org/pypi/pomegranate/
+Author: Jacob Schreiber
+Author-email: jmschreiber91@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.20.0)
+Requires-Dist: joblib (>=0.9.0b4)
+Requires-Dist: networkx (>=2.4)
+Requires-Dist: scipy (>=0.17.0)
+Requires-Dist: pyyaml
+Provides-Extra: gpu
+Requires-Dist: cupy ; extra == 'gpu'
+Provides-Extra: plotting
+Requires-Dist: pygraphviz ; extra == 'plotting'
+Requires-Dist: matplotlib ; extra == 'plotting'
+
+UNKNOWN
+
+

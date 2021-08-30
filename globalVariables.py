@@ -1,0 +1,1 @@
+hummodPath = "C:\\Users\\dmlee\\Desktop\\HumMod"
